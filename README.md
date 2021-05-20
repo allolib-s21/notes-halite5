@@ -3,7 +3,7 @@
 
 ##  improved subtractive synthesis
 
-I wrote an alternative version of the subtractive synthesis demo that provides what I think is a better and more familiar subtractive synthesizer architecture
+I wrote an alternative version of the built in [subtractive synthesis demo](https://github.com/AlloSphere-Research-Group/allolib_playground/blob/master/tutorials/synthesis/08_SubSyn.cpp) that provides what I think is a better and more familiar subtractive synthesizer architecture
 
 ###  problems and areas for improvement in the existing demo
 
@@ -17,3 +17,17 @@ A general outline:
 - mixable sawtooth/square/noise oscillators
 - independent amplitude and filter ADSR envelopes
 - resonant low pass filter with boost band at cutoff frequency
+
+### code
+
+The code for the demo can be found [here].
+
+## multi instrument sequencing
+
+### summary
+
+This is an expansion of pconrad's [frere jacque code]() that allows sequencing notes and playing them back from separate instruments.
+One important feature that code lacks is the ability to provide different sequences of notes for each instrument. This is important because in real pieces, it is rare that all the instruments are always playing the exact same notes.
+
+### code
+[my code]() is an expansion on that demo, providing this feature, and demonstrating it with two separate instruments.
