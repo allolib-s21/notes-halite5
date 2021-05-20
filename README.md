@@ -7,7 +7,10 @@ I wrote an alternative version of the built in [subtractive synthesis demo](http
 
 ###  problems and areas for improvement in the existing demo
 
-- envelopes:  The envelope duration parameter  Controls the duration of both envelopes, so they cannot be set separately. Furthermore, the filter envelope is controlled by two different envelopes for both the CF (cutoff frequency) and BW (bandwidth). In addition, there is no explicit control of the resonance boost at the cutoff frequency. Finally, since the envelopes are symmetrical, controlled by only a  start parameter, end parameter, and rise speed perimeter.  because of this, both envelopes rise and fall at the same rate, greatly limiting sound possibilities.
+- The envelope duration parameter  Controls the duration of both envelopes, so they cannot be set separately. 
+- The filter is controlled by two different envelopes for both the CF (cutoff frequency) and BW (bandwidth).
+- There is no explicit control of the resonance boost at the cutoff frequency. 
+- Since the envelopes are symmetrical, controlled by only a  start parameter, end parameter, and rise speed perimeter.  because of this, both envelopes rise and fall at the same rate, greatly limiting sound possibilities.
 
 ### minisubwaves: better subsyn
 
