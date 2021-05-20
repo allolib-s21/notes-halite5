@@ -31,3 +31,16 @@ One important feature that code lacks is the ability to provide different sequen
 
 ### code
 [my code](https://github.com/allolib-s21/notes-halite5/blob/main/demos/19_GrumpyHatBase.cpp) is an expansion on that demo, providing this feature, and demonstrating it with two separate instruments.
+
+## karplus-strong demo
+
+## summary
+
+I made a basic implementation of Karplus-Strong synthesis to create a string-like sound using a delay.  this demonstration is implemented simply as an extension of my MiniSubWaves code, creating a variant that has a comb filter applied after the main resonant LP filter.
+the result is some very rough sounds that are nevertheless quite reminiscent of physical string instruments.
+
+## explanation
+coming soon
+
+## code
+wip
