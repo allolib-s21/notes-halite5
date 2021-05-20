@@ -20,14 +20,14 @@ A general outline:
 
 ### code
 
-The code for the demo can be found [here].
+The code for the demo can be found [here](https://github.com/allolib-s21/notes-halite5/blob/main/demos/18_AdvSubSyn.cpp).
 
 ## multi instrument sequencing
 
 ### summary
 
-This is an expansion of pconrad's [frere jacque code]() that allows sequencing notes and playing them back from separate instruments.
+This is an expansion of pconrad's [frere jacque two voices code](https://github.com/allolib-s21/demo1-pconrad/blob/161e44305b9f070606bf4267c71e6298e47c1b8d/tutorials/allolib-s21/040_FrereJacquesTwoVoices.cpp) that allows sequencing notes and playing them back from separate instruments.
 One important feature that code lacks is the ability to provide different sequences of notes for each instrument. This is important because in real pieces, it is rare that all the instruments are always playing the exact same notes.
 
 ### code
-[my code]() is an expansion on that demo, providing this feature, and demonstrating it with two separate instruments.
+[my code](https://github.com/allolib-s21/notes-halite5/blob/main/demos/19_GrumpyHatBase.cpp) is an expansion on that demo, providing this feature, and demonstrating it with two separate instruments.
