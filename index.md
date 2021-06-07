@@ -37,13 +37,20 @@ One important feature that code lacks is the ability to provide different sequen
 
 ## karplus-strong demo
 
-## summary
+### summary
 
 I made a basic implementation of Karplus-Strong synthesis to create a string-like sound using a delay.  this demonstration is implemented simply as an extension of my MiniSubWaves code, creating a variant that has a comb filter applied after the main resonant LP filter.
 the result is some very rough sounds that are nevertheless quite reminiscent of physical string instruments.
 
-## explanation
-coming soon
+### explanation
+karplus strong  synthesis works by utilizing a noise burst that can be modulated by an envelope, that is then passed through a low pass filter. finally, the signal is  passed through a very short delay. Very short delays can be represented/simulated by comb filters. comb  filters create a pattern that strongly resembles the interference pattern caused by playing a signal along with itswlf a very short delay after. The delay time controls the pitch. Longer delays corresponds to lower pitches, while shorter delays correspond to higher pitches. The equation for the fundamental frequency of the string sound is given by `F0=Fs/Fs`, where `Fs` is the sampling frequency, `Fn` is the note frequency, and `F0` is the fundamental frequency. Since allolib  currently uses a sampling frequency of 44100 Hz, we can use this equation to calculate the delay required to create a note with the desired fundamental frequency. The expression for the delay (in seconds) is given by `D = (44100/Fn)/44100`. The demo uses this formula to automatically calculate the delay so that notes can be produced at the proper frequency by dynamically adjusting the delay time.
 
-## code
+### code
 wip
+
+
+## putting everything together
+
+Finally, we can put all these components together into a simple composition that utilize each of these elements. it will include our improved subtractive synthesis, our multi instrument sequencing code, and finally, our code to synthesize string like sounds using the Karplus Strong algorithm.
+
+
