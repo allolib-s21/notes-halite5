@@ -52,4 +52,4 @@ karplus strong  synthesis works by utilizing a noise burst that can be modulated
 
 Finally, we can put all these components together into a simple composition that utilize each of these elements. it will include our improved subtractive synthesis, our multi instrument sequencing code, and finally, our code to synthesize string like sounds using the Karplus Strong algorithm.
 
-
+[demo](https://github.com/allolib-s21/notes-halite5/blob/main/demos/25_GrumpyKP.cpp)
